@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Milkshake';
+    src: url("assets/Milkshake.otf") format("opentype");
+}
+#app-timer {
+    background: #2ecc71;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 5px;
+}
+#app-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    box-shadow: -3px -1px 19px black;
+    font-family: 'Milkshake';
+    font-size: 32px;
+    text-align: center;
+    line-height: 200px;
+}
